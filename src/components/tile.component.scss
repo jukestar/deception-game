@@ -1,0 +1,60 @@
+:host {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    
+    background: #202020 !important;
+    border-radius: 4px;
+    padding: 1rem;
+    border: 4px solid black !important;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    width: -webkit-fill-available;
+}
+
+li {
+    font-size: 18px;
+    // background: linear-gradient(orange, #202020);
+
+    background: #202020;
+    color: whitesmoke;
+
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    width: -webkit-fill-available;
+}
+
+.c-is-active {
+    font-weight: bolder;
+}
+
+.c-not-active {
+    color: gray;
+    font-style: italic;
+    background: none !important;
+}
+
+.c-orange {
+    background: linear-gradient(0deg, rgba(88,71,46,1) 0%, rgba(45,35,20,1) 10%, #202020 100%);
+}
+
+.c-green {
+    background: linear-gradient(0deg, rgb(4, 98, 4) 0%, rgb(20, 45, 20) 10%, #202020 100%);
+}
+
+.c-purple {
+    background: linear-gradient(0deg, rgb(94, 6, 94) 0%, rgb(45, 20, 42) 10%, #202020 100%);
+}

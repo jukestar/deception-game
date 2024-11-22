@@ -1,0 +1,15 @@
+@if (gameHasStarted) {
+    <dec-tile [color]="'purple'" [tile]="causeOfDeath"></dec-tile>
+    
+    <dec-tile [color]="'green'" [tile]="randomLocation"></dec-tile>
+    
+    <!-- <div [@listAnimation]="firstFourCluesTiles.length"> -->
+        @for (tile of firstFourCluesTiles; track tile.title) {
+            <dec-tile  [canBeReplaced]="canReplaceOneTile" [color]="'orange'" [tile]="tile" (replaceTile)="onReplaceTile(tile)"></dec-tile>
+        }
+    <!-- </div> -->
+    
+    <!-- <div class="example-box" cdkDrag>
+        Drag me around
+    </div> -->
+}

@@ -1,0 +1,7 @@
+/* Add application styles & imports to this file! */
+
+body {
+    background: rgba(50,76,106,1);
+    color: whitesmoke; 
+    font-family: monospace;
+}
